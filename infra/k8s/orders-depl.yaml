@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: orders
-          image: us.gcr.io/ticketing-dev-403722/orders
+          image: joshuahsharris/orders
           env:
             - name: NATS_URL
               value: "http://nats-srv:4222"
